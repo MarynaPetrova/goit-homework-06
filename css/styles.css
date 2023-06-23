@@ -9,7 +9,7 @@
   --color-secondary-backgraund: #f4f4fd;
   --color-btm-two: #e7e9fc;
 }
-
+/* general */
 .list {
   list-style: none;
   padding: 0;
@@ -37,7 +37,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
+/* mobile */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -65,7 +65,7 @@ h6,
 p {
   margin: 0;
 }
-/* ======= ==== Header===== ====== */
+/* header */
 
 .head-two {
   display: none;
