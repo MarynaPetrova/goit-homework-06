@@ -1,0 +1,193 @@
+@media screen and (min-width: 1158px) {
+  /* Body */
+
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+    button {
+      cursor: pointer;
+    }
+
+  /* Шапка сайту */
+
+  .nav .list {
+    margin-right: auto;
+  }
+
+ .address {
+   margin-left: auto;
+ }
+
+  .list-contact {
+    display: flex;
+    gap: 40px;
+  }
+
+  .address-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+  }
+
+  /* Логотип */
+
+  .nav > .link {
+    margin-right: 76px;
+  }
+
+  /* Main */
+
+  /* Hero */
+
+  .hero {
+    background-color: #2e2f42;
+    padding: 188px 0;
+  }
+
+  @media screen and (min-width: 769px) {
+    .overlay {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/hero/desktop@1.jpg');
+    }
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .overlay {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ), url('../images/hero/desktop@2x.jpg')
+    }
+  }
+
+  .hero-title {
+    margin: 0 auto 48px auto;
+  }
+
+  /* Modal Hero Window */
+
+  .modal {
+    top: 412px;
+    left: 50%;
+  }
+
+  /* Our tasks */
+
+  .tasks {
+    padding: 120px 0;
+  }
+
+  .tasks-descr {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .task-item {
+    display: block;
+    width: calc((100%-3 * 24px) / 4);
+  }
+
+  .icon-task-border {
+    display: flex;
+    width: 264px;
+    height: 112px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    background: #f4f4fd;
+    border-radius: 4px;
+  }
+
+  .bar-name {
+    margin: 0 0 8px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  /* What are we doing */
+
+  .gallery {
+    display: block;
+    padding-bottom: 120px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .gallery-list {
+    display: flex;
+    padding: 0;
+  }
+
+  .gallery-img {
+    display: block;
+  }
+
+  .gallery-img:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  /* Our team */
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-content {
+    gap: 0 24px;
+  }
+
+  /* Customers */
+
+  .customers>.container {
+    max-width: 1140px;
+  }
+
+  .customer-item {
+    width: calc((100% - 120px) / 6);
+  }
+  
+  /* Footer */
+
+  .footer-container {
+    padding-top: 100px;
+    min-width: 1158px;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+  }
+
+  .footer-left {
+    margin: 0 auto;
+  }
+   .footer-right{
+    margin-left: 120px;
+   }
+
+  .subscribe-field {
+    margin-left: 80px;
+  }
+  
+  /* Portfolio */
+
+.btn-list {
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+  /* Projects */
+
+  .web-name {
+    margin-bottom: 8px;
+  }
+}
